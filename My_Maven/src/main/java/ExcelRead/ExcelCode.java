@@ -25,6 +25,7 @@ public class ExcelCode
 	{
 		Row r = sh.getRow(row);
 		Cell c = r.getCell(column);
+		System.out.println(c);
 		int celltype = c.getCellType();
 		switch(celltype) 
 		{
